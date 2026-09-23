@@ -48,7 +48,7 @@ const frame = useCurrentFrame();
 const { fps } = useVideoConfig();
 
 // Offset lead frames to align with vocal impact
-const TIMING_OFFSET_FRAMES = 22;
+const TIMING_OFFSET_FRAMES = 20.5;
 const effectiveFrame = frame + TIMING_OFFSET_FRAMES;
 
 const currentLine = lyrics.find(
